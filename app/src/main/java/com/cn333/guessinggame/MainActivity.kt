@@ -54,8 +54,7 @@ class MainActivity : AppCompatActivity() {
     fun newGame(resetScore: Boolean = true) {
         val guessNumberInput = findViewById<EditText>(R.id.guessNumberInput)
         toggleHintLayout(false)
-
-
+        
         challengeNumb = (1 until 1000).random()
         updateAnswerHint()
         guessNumberInput?.text?.clear()
