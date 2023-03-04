@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context="com.cn333.guessinggame.MainActivity">
 
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -14,6 +15,25 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/resultText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/resultText"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/answerHint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="italic" />
 
         <TextView
             android:id="@+id/textView"
@@ -27,68 +47,67 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-
         </LinearLayout>
+
 
         <EditText
             android:id="@+id/guessNumberInput"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
             android:hint="@string/guessNumberInput"
-            android:importantForAutofill="no"
-            android:inputType="numberSigned"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            tools:ignore="TextContrastCheck" />
+            android:inputType="number"
+            android:maxLength="3"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
 
         <LinearLayout
             android:id="@+id/hintLayout"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:visibility="invisible">
 
             <TextView
                 android:id="@+id/hintLabel"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/hintLabel" />
+                android:text="@string/hintLabel"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/hintValueText"
-                android:layout_width="0dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/hintValueText" />
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
         </LinearLayout>
 
         <Button
             android:id="@+id/guessNumberButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/guessNumberButton" />
+            android:layout_margin="16dp"
+            android:text="@string/guessNumberButton"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp" />
 
         <Button
             android:id="@+id/newGameButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/newGameButton" />
+            android:layout_margin="16dp"
+            android:text="@string/newGameButton"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="16dp" />
+
     </LinearLayout>
 
-    <TextView
-        android:id="@+id/answerHint"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/answerHint"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="188dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

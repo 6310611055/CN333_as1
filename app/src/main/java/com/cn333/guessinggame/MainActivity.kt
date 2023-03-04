@@ -51,21 +51,22 @@ class MainActivity : AppCompatActivity() {
             correct()
     }
 
-    fun newGame(resetScore: Boolean = true) {
+    fun newGame() {
         val guessNumberInput = findViewById<EditText>(R.id.guessNumberInput)
         toggleHintLayout(false)
-        
+        val resultText = findViewById<TextView>(R.id.resultText)
+        resultText.text = "Try it!"
+        guessNumberInput?.text?.clear()
         challengeNumb = (1 until 1000).random()
         updateAnswerHint()
-        guessNumberInput?.text?.clear()
         guessNumb = 0
     }
 
     fun correct() {
-        val message = "YOU CORRECT! (You have guessed $guessNumb times.)"
-        Toast.makeText(applicationContext, message, Toast.LENGTH_SHORT).show()
+        val resultText = findViewById<TextView>(R.id.resultText)
+        resultText.text = "You win!"
         toggleHintLayout(false)
-        newGame(false)
+
     }
 
     fun updateAnswerHint() {

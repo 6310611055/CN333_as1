@@ -7,5 +7,5 @@
     <string name="newGameButton">Play again!</string>
     <string name="guessNumberInput">Guess</string>
     <string name="answerHint">TextView</string>
-    <string name="textView2">TextView</string>
+    <string name="resultText">Try it!</string>
 </resources>
