@@ -13,19 +13,19 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val guessNumberButton = findViewById<Button>(R.id.guessNumberButton)
-        val newGameButton = findViewById<Button>(R.id.newGameButton)
+        val checkButton = findViewById<Button>(R.id.guessNumberButton)
+        val playAgainButton = findViewById<Button>(R.id.newGameButton)
 
-        guessNumberButton.setOnClickListener {
-            handleGuess()
+        checkButton.setOnClickListener {
+            checkResult()
         }
 
-        newGameButton.setOnClickListener {
-            newGame()
+        playAgainButton.setOnClickListener {
+            playAgain()
         }
 
         toggleHintLayout(false)
-        newGame()
+        playAgain()
     }
 
     fun toggleHintLayout(toggle: Boolean) {
@@ -33,39 +33,40 @@ class MainActivity : AppCompatActivity() {
         hintLayout?.visibility = if (toggle) View.VISIBLE else View.INVISIBLE
     }
 
-    fun handleGuess() {
-        val guessNumberInput = findViewById<EditText>(R.id.guessNumberInput)
-        val hintText = findViewById<TextView>(R.id.hintValueText)
-        val guessNumber = guessNumberInput?.text.toString()
+    fun checkResult() {
+        val numberInput = findViewById<EditText>(R.id.Input)
+        val hint = findViewById<TextView>(R.id.hintTelling)
+        val randomNumber = numberInput?.text.toString()
 
-        if(guessNumber.isEmpty()) return newGame()
+        if(randomNumber.isEmpty()) return playAgain()
 
         guessNumb++
         toggleHintLayout(true)
 
-        if(guessNumber.toInt() < challengeNumb)
-            hintText?.text = "The answer is higher ka!"
-        else if(guessNumber.toInt() > challengeNumb)
-            hintText?.text = "The answer is lower ka!"
+        if(randomNumber.toInt() < challengeNumb)
+            hint?.text = "The answer is higher ka!"
+        else if(randomNumber.toInt() > challengeNumb)
+            hint?.text = "The answer is lower ka!"
         else
-            correct()
+            correctAnswer()
     }
 
-    fun newGame(resetScore: Boolean = true) {
-        val guessNumberInput = findViewById<EditText>(R.id.guessNumberInput)
+    fun playAgain() {
+        val numberInput = findViewById<EditText>(R.id.Input)
         toggleHintLayout(false)
-        
+        val resultText = findViewById<TextView>(R.id.resultText)
+        resultText.text = "Try it!"
+        numberInput?.text?.clear()
         challengeNumb = (1 until 1000).random()
         updateAnswerHint()
-        guessNumberInput?.text?.clear()
         guessNumb = 0
     }
 
-    fun correct() {
-        val message = "YOU CORRECT! (You have guessed $guessNumb times.)"
-        Toast.makeText(applicationContext, message, Toast.LENGTH_SHORT).show()
+    fun correctAnswer() {
+        val resultText = findViewById<TextView>(R.id.resultText)
+        resultText.text = "YOU WIN!"
         toggleHintLayout(false)
-        newGame(false)
+
     }
 
     fun updateAnswerHint() {
