@@ -1,4 +1,4 @@
-# CN333_as1
+# CN333_assignment 1
 
 #Variya Kittiwattanachok 6310610958
 #Woraphat Wannaphong 6310611055
