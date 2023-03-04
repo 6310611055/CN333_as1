@@ -1,4 +1,4 @@
-package com.aom.guessthenumber
+package com.cn333.guessinggame
 
 import org.junit.Test
 

@@ -71,8 +71,8 @@
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.constraintlayout/constraintlayout-solver/2.0.4/1f001d7db280a89a6c26b26a66eb064bb6d5efeb/constraintlayout-solver-2.0.4.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/23b81848784257120314f2e56c557e2f/transformed/jetified-annotations-13.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/475636567699da7084508e06292bbb32/transformed/jetified-kotlin-stdlib-common-1.5.31.jar</arg>
-                <arg>$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-31/android.jar</arg>
-                <arg>$USER_HOME$/AppData/Local/Android/Sdk/build-tools/30.0.2/core-lambda-stubs.jar</arg>
+                <arg>$USER_HOME$/Library/Android/sdk/platforms/android-31/android.jar</arg>
+                <arg>$USER_HOME$/Library/Android/sdk/build-tools/30.0.2/core-lambda-stubs.jar</arg>
               </args>
             </stringArg>
             <stringArg name="destination" arg="$MODULE_DIR$/../../../app/build/tmp/kotlin-classes/debugAndroidTest" />

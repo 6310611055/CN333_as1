@@ -1,12 +1,11 @@
 <resources>
-    <string name="app_name">GuessTheNumber</string>
+    <string name="app_name">Number Guessing Game</string>
     <string name="hintLabel">Hint:</string>
-    <string name="hintValueText">Test</string>
-    <string name="descriptionLabel">Try yo guess the number (0-1000)</string>
-    <string name="guessNumberButton">Guess the Number!</string>
-    <string name="newGameButton">Restart</string>
-    <string name="guessNumberInput">Guess the Number</string>
-    <string name="scoreLabel">Score</string>
-    <string name="scoreValue">TextView</string>
+    <string name="hintValueText"> hint</string>
+    <string name="title">Guess the number between 1 and 1000</string>
+    <string name="guessNumberButton">Guess the Number</string>
+    <string name="newGameButton">Restart Game!</string>
+    <string name="guessNumberInput">Guess</string>
     <string name="answerHint">TextView</string>
+    <string name="textView2">TextView</string>
 </resources>

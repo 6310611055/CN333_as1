@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context="com.cn333.guessinggame.MainActivity">
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -15,35 +15,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/textView3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textAlignment="center"
-                android:text="@string/scoreLabel" />
-
-            <TextView
-                android:id="@+id/scoreValue"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/scoreValue"
-                android:textAlignment="center"
-                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-                tools:text="0" />
 
         </LinearLayout>
-
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/descriptionLabel"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
         <EditText
             android:id="@+id/guessNumberInput"
@@ -96,5 +81,14 @@
         android:text="@string/answerHint"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="188dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

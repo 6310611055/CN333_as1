@@ -1,4 +1,4 @@
-package com.aom.guessthenumber
+package com.cn333.guessinggame
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.aom.guessthenumber", appContext.packageName)
+        assertEquals("com.cn333.gussinggame", appContext.packageName)
     }
 }
