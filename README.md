@@ -11,12 +11,25 @@
 #### Woraphat Wannaphong 6310611055
 #### Pavisa Sirirojvorakul 6310620064
 
+# ขั้นตอนการใช้งาน
+1.git clone https://github.com/6310611055/CN333_as1.git
+2.Android Studio เลือก file => new => import project => เลือกfileที่cloneไว้
+3.กด Run or Shift + F10
+
 # Demo สาธิตวิธีการเล่น
 LinkVideo=> [Click_Here](https://youtu.be/H33QJ3YbSHU)
 
 # ตัวอย่าง Display Android App
 เมื่อเริ่มRunขึ้นมา
-![StartGame](StartGame.png)
-<img src = "StartGame.png" alt ="Start Game" width = "300px" Height ="300px">
+<img src = "StartGame.png" alt ="Start Game" width = "50%" Height ="50%">
+
+เมื่อทำการกรอกตัวเลขที่จำนวนน้อยกว่าคำตอบที่ถูกต้อง
+<img src = "Higher.png" alt ="Higher" width = "50%" Height ="50%">
+
+เมื่อทำการกรอกตัวเลขที่จำนวนมากกว่าคำตอบที่ถูกต้อง
+<img src = "Lower.png" alt ="Lower" width = "50%" Height ="50%">
+
+เมื่อทำการกรอกตัวเลขที่ถูกต้อง
+<img src = "Correct.png" alt ="Correct" width = "50%" Height ="50%">
 
 
