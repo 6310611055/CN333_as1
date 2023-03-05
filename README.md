@@ -14,5 +14,5 @@
 # Demo สาธิตวิธีการเล่น
 
 
-![StartGame!](./CN333/StartGame.png "Start Game")
+![StartGame!](d/CN333/Images/StartGame.png "Start Game")
 
