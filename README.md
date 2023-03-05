@@ -7,8 +7,8 @@
 - สามารเล่นเกมใหม่ได้
 
 # สมาชิกในกลุ่ม
-## Variya Kittiwattanachok 6310610958
-## Woraphat Wannaphong 6310611055
-## Pavisa Sirirojvorakul 6310620064
+### Variya Kittiwattanachok 6310610958
+### Woraphat Wannaphong 6310611055
+### Pavisa Sirirojvorakul 6310620064
 
 # Demo สาธิตวิธีการเล่น
