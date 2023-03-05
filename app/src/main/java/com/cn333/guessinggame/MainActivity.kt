@@ -64,14 +64,15 @@ class MainActivity : AppCompatActivity() {
 
     fun correctAnswer() {
         val resultText = findViewById<TextView>(R.id.resultText)
-        resultText.text = "CORRECT " + guessNum.toString() + " TIMES. "
+        resultText.text = "CORRECT! " + guessNum.toString() + " TIMES. "
         toggleHintLayout(false)
 
     }
 
     fun updateAnswerHint() {
         val answerText = findViewById<TextView>(R.id.answerHint)
-        answerText?.text = answerNum.toString()
+        // ไว้สำหรับเช็คคำตอบ
+        //answerText?.text = answerNum.toString()
     }
 
 }
