@@ -14,6 +14,3 @@
 # Demo สาธิตวิธีการเล่น
 
 
-![Start Game](d/cn333/images/StartGame.png "Star Game")
-<img src ="D:\CN333\Images\StartGame.png" alt ="Start Game" />
-![Start Game.](https://drive.google.com/file/d/1clyADODIsxatpSzQkmc70JBXQM7Zi2gJ/view?usp=sharing)
