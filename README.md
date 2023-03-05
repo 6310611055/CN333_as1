@@ -17,6 +17,6 @@ LinkVideo=> [Click_Here](https://youtu.be/H33QJ3YbSHU)
 # ตัวอย่าง Display Android App
 เมื่อเริ่มRunขึ้นมา
 ![StartGame](StartGame.png)
-<img src = "StartGame.png" alt ="Start Game" width = "300px" Height ="300px"
+<img src = "StartGame.png" alt ="Start Game" width = "300px" Height ="300px">
 
 
