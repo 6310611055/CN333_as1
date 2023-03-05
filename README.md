@@ -21,15 +21,19 @@ LinkVideo=> [Click_Here](https://youtu.be/H33QJ3YbSHU)
 
 # ตัวอย่าง Display Android App
 เมื่อเริ่มRunขึ้นมา
-<img src = "StartGame.png" alt ="Start Game" width = "50%" Height ="50%">
+
+<img src = "StartGame.png" alt ="Start Game" width = "25%" Height ="25%">
 
 เมื่อทำการกรอกตัวเลขที่จำนวนน้อยกว่าคำตอบที่ถูกต้อง
-<img src = "Higher.png" alt ="Higher" width = "50%" Height ="50%">
+
+<img src = "Higher.png" alt ="Higher" width = "25%" Height ="25%">
 
 เมื่อทำการกรอกตัวเลขที่จำนวนมากกว่าคำตอบที่ถูกต้อง
-<img src = "Lower.png" alt ="Lower" width = "50%" Height ="50%">
+
+<img src = "Lower.png" alt ="Lower" width = "25%" Height ="25%">
 
 เมื่อทำการกรอกตัวเลขที่ถูกต้อง
-<img src = "Correct.png" alt ="Correct" width = "50%" Height ="50%">
+
+<img src = "Correct.png" alt ="Correct" width = "25%" Height ="25%">
 
 
