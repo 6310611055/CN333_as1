@@ -13,7 +13,10 @@
 
 # Demo สาธิตวิธีการเล่น
 LinkVideo=> [Click_Here](https://youtu.be/H33QJ3YbSHU)
-[StartGame](https://drive.google.com/drive/u/0/folders/1CdJ1ULPTOHSs7yMHMEL7m3AeS5Pw2FYE/StartGame.png)
-<img src="https://drive.google.com/drive/u/0/folders/1CdJ1ULPTOHSs7yMHMEL7m3AeS5Pw2FYE/StartGame.png" alt="StartGame">
+
+# Number Guessing Game
+[StartGame](https://drive.google.com/file/d/1clyADODIsxatpSzQkmc70JBXQM7Zi2gJ/view?usp=sharing)
+<img src="https://drive.google.com/file/d/1clyADODIsxatpSzQkmc70JBXQM7Zi2gJ/view?usp=sharing" alt="StartGame">
+
 
 
